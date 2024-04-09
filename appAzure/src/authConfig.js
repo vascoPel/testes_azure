@@ -14,7 +14,7 @@ export const msalConfig = {
   auth: {
     clientId: '1c2f2928-210b-4d36-90c7-e9aa6176fcd2',
     authority: 'https://login.microsoftonline.com/common',
-    redirectUri: 'http://localhost:3000/redirect',
+    redirectUri: 'https://testes-azure-ten.vercel.app/redirect',
   },
   cache: {
     cacheLocation: 'sessionStorage', // This configures where your cache will be stored
